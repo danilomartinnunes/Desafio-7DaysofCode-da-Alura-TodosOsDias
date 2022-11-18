@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=Ubuntu:wght@500&display=swap");
+
+body {
+	background: linear-gradient(236.85deg, #2c53269e 27.26%, rgb(96, 205, 154) 96.03%);
+	font-family: "Roboto", sans-serif;
+}
+.cabecalho {
+	display: flex;
+	justify-content: center;
+}
+
+.imagem-cabecalho {
+	align-self: flex-start;
+	position: absolute;
+	left: 840px;
+}
+
+.controles {
+	align-self: center;
+	position: center;
+	right: 50%;
+	/* 	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center; */
+	margin: 12px;
+	padding: 24px;
+}
+
+button {
+	font-weight: 400;
+	font-size: 14px;
+	color: #ffffff;
+	background: #000000;
+	border: 2px solid #0e1d2f;
+	box-sizing: border-box;
+	border-radius: 100px;
+	padding: 8px 16px;
+}
+
+button:hover {
+	background: #1c1c1c;
+	color: #ffffff;
+	border: 2px solid #f7f7f7;
+}
+
+.dark {
+	background: #1c1c1c;
+	color: #ffffff;
+	border: 2px solid #f7f7f7;
+}
+
+.programa {
+	background: #7c899c;
+	color: #1c1c1c;
+	margin: 12px;
+	border-radius: 20px;
+	box-shadow: 6px 6px 6px #0e1d2f;
+	padding: 48px;
+	font-family: "Roboto Mono";
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.resultado {
+	color: whitesmoke;
+	position: absolute;
+	left: 25px;
+	font-size: 16px;
+	margin: 15px;
+	font-family: "Ubuntu";
+	font-weight: 500;
+}
+
+.controlesDia03 {
+	display: none;
+	color: whitesmoke;
+	position: absolute;
+	font-size: 24px;
+	margin: 15px;
+	font-family: "Ubuntu";
+	font-weight: 500;
+}
+
+.resultadoDia4 {
+	display: none;
+	align-items: center;
+	flex-direction: column;
+	color: whitesmoke;
+	position: center;
+	font-size: 24px;
+	margin: 15px;
+	font-family: "Ubuntu";
+	font-weight: 500;
+}
+.dica {
+	font-size: 14px;
+}
+
+.tentativa {
+	font-size: 18px;
+	color: yellow;
+}
+
+.opaco {
+	opacity: 0.4;
+}
+
+.nova-tentativa {
+	display: none;
+}
+
+.resultadoDia5 {
+	display: none;
+	align-items: center;
+	flex-direction: column;
+	color: whitesmoke;
+	position: center;
+	font-size: 24px;
+	margin: 15px;
+	font-family: "Ubuntu";
+	font-weight: 500;
+}
+
+.item {
+	position: absolute;
+	right: 40%;
+}
+
+.submeter {
+	display: block;
+	position: absolute;
+	right: 45%;
+    margin: 50px;
+}
+
+.submeter2 {
+	display: block;
+	position: absolute;
+	right: 45%;
+    margin: 50px;
+}
+
+.novaLista {
+	display: none;
+	position: absolute;
+	right: 43%;
+	margin: 10px;
+}
+
+.novaLista2 {
+	display: none;
+	position: absolute;
+	right: 43%;
+	margin: 30px;
+}
+
+.ancora {
+	display: none;
+}
+
+.divulgaLista {
+	background: #ecf4ff;
+	color: #1c1c1c;
+	margin: 12px;
+	border-radius: 20px;
+	box-shadow: 6px 6px 6px #0e1d2f;
+	padding: 10px;
+	font-family: "Roboto Mono";
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.removeItem {
+	display: none;
+}
+
+.botaoRemover {
+	position: absolute;
+	right: 45%;
+    margin: 25px;
+}
+
+.resultadoDia7 {
+	display: none;
+	align-items: center;
+	flex-direction: column;
+	color: whitesmoke;
+	position: center;
+	font-size: 24px;
+	margin: 15px;
+	font-family: "Ubuntu";
+	font-weight: 500;
+}
+
+.radio-div {
+	flex-direction: row;
+}
